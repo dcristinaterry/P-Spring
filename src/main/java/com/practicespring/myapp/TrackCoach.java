@@ -8,4 +8,10 @@ public class TrackCoach implements Coach {
 		return "run a hard 5k";
 	}
 
+	@Override
+	public String getSportName() {
+		// TODO Auto-generated method stub
+		return "Track Coach:  ";
+	}
+
 }
