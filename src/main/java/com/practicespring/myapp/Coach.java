@@ -3,7 +3,8 @@ package com.practicespring.myapp;
 public interface Coach {
 
 	
-	public String getDaylyWorkout();	
+	public String getDailyWorkout();	
 	public String getSportName();
+	public String getDailyFortune();
 	
 }
