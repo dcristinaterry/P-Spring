@@ -17,7 +17,8 @@
 		class="com.practicespring.myapp.HappyfortuneService">
 	</bean>
 
-	<bean id="myCoach" class="com.practicespring.myapp.TrackCoach">
+<!-- prototype will create a new instance everytime, to keep track of statefull data -->
+	<bean id="myCoach" class="com.practicespring.myapp.TrackCoach" scope="prototype">
 		<!-- constructor Injection -->
 		<constructor-arg ref="myFortuneService" />
 	</bean>
