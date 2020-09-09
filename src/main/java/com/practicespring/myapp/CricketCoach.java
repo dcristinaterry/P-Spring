@@ -21,6 +21,7 @@ public class CricketCoach implements Coach {
 
 // setter method that will be called my spring
 	public void setMyFortuneService(FortuneService myFortuneService) {
+		System.out.println("inside cricket coach setter method");
 		this.myFortuneService = myFortuneService;
 	}
 
