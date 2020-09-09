@@ -3,6 +3,8 @@ package com.practicespring.myapp;
 public class CricketCoach implements Coach {
 	
 	private FortuneService myFortuneService;
+	private String email;
+	private String team;
 	
 	
 
@@ -23,6 +25,29 @@ public class CricketCoach implements Coach {
 	public void setMyFortuneService(FortuneService myFortuneService) {
 		System.out.println("inside cricket coach setter method");
 		this.myFortuneService = myFortuneService;
+	}
+
+
+	
+	public String getEmail() {
+		return email;
+	}
+
+
+	public void setEmail(String email) {
+		System.out.println("inside cricket coach setter e-mail address");
+		this.email = email;
+	}
+
+
+	public String getTeam() {
+		return team;
+	}
+
+
+	public void setTeam(String team) {
+		System.out.println("inside cricket coach setter for the team");
+		this.team = team;
 	}
 
 
